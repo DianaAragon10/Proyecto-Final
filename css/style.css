@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;  
+    
+}
+
+section {
+    scroll-margin-top: 90px; 
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 50px;
+    padding: 15px;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.222);
+}
+
+.navbar .nav-link {
+    color: #F5122D;
+    margin-left: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+
+.navbar .nav-link:hover{
+    background-color: #F5122D;
+    color: white;
+
+}
+.banner {
+    background-image: url("../img/Portada2.jpeg");
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .btn{
+    background-color: #F5122D;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+
+}
+
+.banner .btn:hover{
+    background-color: white;
+    color: #F5122D;
+    font-weight: bold;
+}
+
+.program .card {
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(215, 205, 205, 0.891);
+}
+
+.program .card-title{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.nosotros .text-muted{
+    padding-bottom: 0;
+}
+
+.nosotros .title-color{
+    padding-bottom: 1rem;
+}
+
+.nosotros .img-fluid{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.625);
+    border-radius: 5%;
+}
+.talleres .btn{
+    background-color: #F5122D;
+    color: white;
+
+
+}
+.talleres .btn:hover{
+    background-color: white;
+    border: 1px solid #F5122D;
+    color: #F5122D;
+}
+.talleres .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.talleres .card {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(164, 157, 157, 0.805);
+    border-radius: 3%;
+}
+
+.talleres .card:hover{
+    transform: scale(1.05);
+}
+
+.talleres .text-muted{
+    padding-bottom: 3rem;
+}
+
+.planes .card{
+    box-shadow: 0px 4px 8px rgba(215, 205, 205, 0.891);
+    border-radius: 3%;
+    overflow: hidden;
+    
+}
+.planes .text-muted{
+    padding-bottom: 2rem;
+}
+
+.diferenciales .fw-bold{
+    padding-bottom: 0.2rem;
+}
+
+.diferenciales .text-muted{
+    padding-bottom: 3rem;
+}
+
+.diferenciales .bi{
+    border-bottom: 2px solid #F5122D;
+}
+.diferenciales .bi:hover{
+    transform: scale(1.05);
+}
+.diferenciales {
+    margin-bottom: 1rem;
+}
+.contacto .text-center{
+    padding-bottom: 2rem;
+}
